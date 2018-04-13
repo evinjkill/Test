@@ -3,9 +3,9 @@ sudo: false
 install: true
 addons:
   sonarcloud:
-    organization: "your_organization_key"
+    organization: evinjkill-github
     token:
-      secure: "your_token_encrypted_with_travis_encrypt_tool"
+      secure: 746ad5cdfa74d8acc9200c74e73e66a7ddb7ec8d
 jdk:
   - oraclejdk8
 script:
